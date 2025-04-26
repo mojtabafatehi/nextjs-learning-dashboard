@@ -178,6 +178,7 @@ export async function fetchCustomers() {
       ORDER BY name ASC
     `;
 
+    //return invoice[0];
     return customers;
   } catch (err) {
     console.error("Database Error:", err);
